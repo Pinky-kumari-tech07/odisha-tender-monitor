@@ -2,7 +2,7 @@
   "crons": [
     {
       "path": "/api/cron/check-tenders",
-      "schedule": "*/15 * * * *"
+      "schedule": "0 9 * * *"
     }
   ]
 }
