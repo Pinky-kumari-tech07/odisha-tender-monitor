@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "job_runs_one_running_idx" ON "job_runs" USING btree ("status") WHERE "job_runs"."status" = 'RUNNING';
